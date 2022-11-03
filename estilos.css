@@ -1,0 +1,44 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: dimgray;
+}
+h1 {
+    text-align: center;
+    
+}
+#miCanvas {
+    border: groove 2px red;
+    background: black;
+    border-radius:5%;
+    /* box-shadow: 10px 10px 10px #888888; */
+}
+
+h1{
+    color: #fc0b0b;
+    border-style: solid;
+    border-color: #000000;   
+    border-radius: 30%; 
+}
+.botonesMover{
+    color: #000000;
+    background-color: #00f15c;
+    border-radius: 10px;
+    height: 30px;
+    width: 25%;
+    margin: 1%;
+    font-size: 24px;
+    font-weight: bold;
+    border-style: none;
+}
+.botonDisparo{
+    color: #0a0a0a;
+    background-color: #ff1b1b;
+    border-radius: 10px;
+    height: 30px;
+    width: 42%;
+    margin: 1%;
+    font-size: 24px;
+    font-weight: bold;
+    border-style: none;
+}
