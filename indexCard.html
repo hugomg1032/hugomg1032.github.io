@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversario</title>
+    <!-- <link rel="stylesheet" href="estilosCard.css"> -->
+    </head>
+<body style="height: 100vh;display: flex; align-items: center; justify-content: center">
+    <style>
+    @keyframes cargando {0% {background-color: #000000; width: 0;}100% {background-color: #000000; width: 200;}}
+    </style>
+    <div class="contenedor" style="gap: 15px;display: flex;flex-direction: column;align-items: center;justify-content: center" >
+        <h1 id="msj"></h1>
+        <img id="img" src="" alt="">
+        <p id="load" style="font-size: 25px">cargando...</p>
+        <div class="barra" style="width: 200px; height: 35px">
+            <div class="cargaGif" style="width: 200px; height: 35px; height: 100%; animation: cargando 5s"></div>
+        </div>
+    </div>
+
+<script>
+    function msj() {
+    document.getElementById("load").innerHTML="";
+    document.getElementById("msj").innerHTML="Feliz Aniversario!!!";
+    document.getElementById("img").src="coala-abrazo.jpg";
+ }
+setTimeout(msj,5500)
+</script>
+<!-- <script src="codigo.js">  </script> -->
+
+</body>
+</html>
